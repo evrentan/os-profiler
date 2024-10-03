@@ -1,0 +1,54 @@
+{
+  "name": "os-profiler",
+  "version": "1.0.0",
+  "description": "os-profiler is a lightweight utility that provides a snapshot of system resource utilization, including CPU, memory, and disk usage. This package is ideal for profiling system utilization in real-time, enabling you to track resource consumption and ensure that systems are running efficiently.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "jest --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evrentan/os-profiler.git"
+  },
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "keywords": [
+    "os",
+    "profiler",
+    "cpu-usage",
+    "memory-usage",
+    "disk-usage",
+    "system-monitoring",
+    "performance",
+    "resource-utilization",
+    "system-diagnostics",
+    "real-time-monitoring",
+    "server-performance",
+    "os profiler",
+    "system profiler",
+    "cpu usage",
+    "memory usage",
+    "disk usage",
+    "system monitoring"
+  ],
+  "author": "Evren Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evrentan/os-profiler/issues"
+  },
+  "homepage": "https://github.com/evrentan/os-profiler#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "diskusage": "^1.2.0"
+  }
+}
