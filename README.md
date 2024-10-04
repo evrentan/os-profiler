@@ -1,5 +1,8 @@
 # os-profiler
 
+![NPM Version](https://img.shields.io/npm/v/os-profiler)
+![License](https://img.shields.io/npm/l/os-profiler)
+
 **os-profiler** is a lightweight utility that provides a snapshot of system resource utilization, including CPU, memory, and disk usage. This package is ideal for profiling system utilization in real-time, enabling you to track resource consumption and ensure that systems are running efficiently.
 
 ## Features
